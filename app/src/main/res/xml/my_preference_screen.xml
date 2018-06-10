@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="General Settings">
+
+        <SwitchPreference
+            android:title="I am Wafi Hasan"
+            android:summary="I am certianly Wafi Hasan"
+            android:defaultValue="true"
+            android:key="i_am_wafi" />
+
+        <CheckBoxPreference
+            android:title="Sexual orientation"
+            android:summary="I prefer bobs and vagene"
+            android:defaultValue="true"
+            android:key="likes_bobs_and_vagene" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

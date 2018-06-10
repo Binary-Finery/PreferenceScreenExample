@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="spencerstudios.com.preferencescreenexample.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Am i Wafi Hasan?"
+        android:textAllCaps="false"
+        android:onClick="buttonClick"
+        android:background="#323232"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btn_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="casual"
+        android:text="Am I gay?"
+        android:textAllCaps="false"
+        android:onClick="buttonClick"
+        android:background="#323232"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"/>
+
+
+
+</LinearLayout>
